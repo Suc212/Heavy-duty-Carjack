@@ -107,13 +107,8 @@ export function OrderForm() {
             </div>
             <h2 className="mt-5 text-xl font-bold text-foreground sm:text-2xl">Order Confirmed!</h2>
             <p className="mt-3 text-muted-foreground">
-              Thank you for your order. We will contact you on WhatsApp to confirm delivery details.
+              Thank you for your order. We will confirm your order via phone call and WhatsApp.
             </p>
-            <div className="mt-4 rounded-lg bg-primary/10 p-3">
-              <p className="text-sm font-medium text-primary">
-                Remember: Accra customers can pay GH₵{selectedOption.totalPrice.toLocaleString()} on delivery
-              </p>
-            </div>
             <Button className="mt-6 w-full sm:w-auto" onClick={() => setIsSubmitted(false)}>
               Place Another Order
             </Button>

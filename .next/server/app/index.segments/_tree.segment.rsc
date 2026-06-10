@@ -8,4 +8,4 @@
 :HL["/images/H08a580bde88d47ad9172ce205c205adc7.jpg_960x960q80.jpg","image"]
 :HL["/images/Hdb49b3bcc41f431ba058b204d73ade61l.jpg","image"]
 :HL["/images/A493800a0438e4862bbc6085ca381b1827.jpg","image"]
-0:{"buildId":"gSfYoWjnGR55z1Rpys3yE","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"PsOh-Hi71CtyarIuxRmF0","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
