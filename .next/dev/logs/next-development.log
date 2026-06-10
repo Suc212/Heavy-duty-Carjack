@@ -1,19 +1,11 @@
-[00:00:01.824] Server  LOG      ✓ Ready in 1253ms
-[00:00:10.391] Server  LOG      ○ Compiling / ...
-[00:00:12.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.024] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:13.024] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:13.024] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781055142961} /_vercel/insights/view
-[00:12:03.004] Server  LOG      ✓ Compiled in 119ms
-[00:12:03.470] Server  LOG      ✓ Compiled in 67ms
-[00:12:44.648] Server  LOG      ✓ Compiled in 71ms
-[00:15:02.098] Server  LOG      ✓ Compiled in 0ms
-[00:17:06.107] Server  LOG      ✓ Compiled in 83ms
-[00:17:06.604] Server  LOG      ✓ Compiled in 88ms
-[00:23:12.417] Server  LOG      ✓ Compiled in 78ms
-[00:23:12.913] Server  LOG      ✓ Compiled in 86ms
-[00:28:41.217] Server  LOG      ✓ Compiled in 77ms
-[00:34:22.864] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781057192780} /_vercel/insights/view
-[00:34:22.865] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781057192784} /_vercel/insights/view
-[00:38:53.741] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781057463664} /_vercel/insights/view
-[00:38:53.741] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781057463666} /_vercel/insights/view
+[00:00:01.278] Server  LOG      ✓ Ready in 837ms
+[00:00:10.392] Server  WARN     ⚠ Cross origin request detected from 10.2.0.2 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:10.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.776] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:11.776] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:11.776] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.2.0.2:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.2.0.2:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781062686352} /_vercel/insights/view
+[00:01:08.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:08.930] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:08.930] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:08.930] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.2.0.2:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.2.0.2:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1781062743404} /_vercel/insights/view
