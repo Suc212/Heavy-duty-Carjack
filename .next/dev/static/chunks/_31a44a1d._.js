@@ -446,29 +446,10 @@ function OrderForm() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-3 text-muted-foreground",
-                            children: "Thank you for your order. We will contact you on WhatsApp to confirm delivery details."
+                            children: "Thank you for your order. We will confirm your order via phone call and WhatsApp."
                         }, void 0, false, {
                             fileName: "[project]/components/landing/order-form.tsx",
                             lineNumber: 109,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-4 rounded-lg bg-primary/10 p-3",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm font-medium text-primary",
-                                children: [
-                                    "Remember: Accra customers can pay GH₵",
-                                    selectedOption.totalPrice.toLocaleString(),
-                                    " on delivery"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/landing/order-form.tsx",
-                                lineNumber: 113,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 112,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -477,7 +458,7 @@ function OrderForm() {
                             children: "Place Another Order"
                         }, void 0, false, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 117,
+                            lineNumber: 112,
                             columnNumber: 13
                         }, this)
                     ]
@@ -511,7 +492,7 @@ function OrderForm() {
                             children: "Fill this form to place your order"
                         }, void 0, false, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 130,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -519,7 +500,7 @@ function OrderForm() {
                             children: "Free delivery across Ghana. Payment on delivery is available only in Accra."
                         }, void 0, false, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 133,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -530,7 +511,7 @@ function OrderForm() {
                                     children: "Limited stock available for delivery"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -538,19 +519,19 @@ function OrderForm() {
                                     children: "Bundle deal active today"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 136,
+                            lineNumber: 131,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/landing/order-form.tsx",
-                    lineNumber: 129,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -563,20 +544,20 @@ function OrderForm() {
                                     className: "h-4 w-4 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "Warranty"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 147,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -586,26 +567,26 @@ function OrderForm() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 147,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "Pay on Delivery Only in Accra"
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 151,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/landing/order-form.tsx",
-                    lineNumber: 146,
+                    lineNumber: 141,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -624,12 +605,12 @@ function OrderForm() {
                                             className: "aspect-square w-full object-contain p-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/landing/order-form.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -640,7 +621,7 @@ function OrderForm() {
                                                 children: "Car Jumpstarter"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/landing/order-form.tsx",
-                                                lineNumber: 168,
+                                                lineNumber: 163,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -648,24 +629,24 @@ function OrderForm() {
                                                 children: "26Ah super jumpstarter with inbuilt tire inflator and accessories"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/landing/order-form.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 164,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/landing/order-form.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 162,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/landing/order-form.tsx",
-                                lineNumber: 159,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 158,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -677,7 +658,7 @@ function OrderForm() {
                                     children: error
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 170,
                                     columnNumber: 23
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -690,7 +671,7 @@ function OrderForm() {
                                                     children: "How Many Do You Want?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 179,
+                                                    lineNumber: 174,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$radio$2d$group$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RadioGroup"], {
@@ -706,7 +687,7 @@ function OrderForm() {
                                                                     id: `qty-${option.quantity}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                    lineNumber: 195,
+                                                                    lineNumber: 190,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -720,7 +701,7 @@ function OrderForm() {
                                                                                     children: option.label
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                                    lineNumber: 198,
+                                                                                    lineNumber: 193,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 option.popular && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -728,13 +709,13 @@ function OrderForm() {
                                                                                     children: "Most Popular"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                                    lineNumber: 200,
+                                                                                    lineNumber: 195,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                                            lineNumber: 197,
+                                                                            lineNumber: 192,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -742,13 +723,13 @@ function OrderForm() {
                                                                             children: option.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                                            lineNumber: 205,
+                                                                            lineNumber: 200,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                    lineNumber: 196,
+                                                                    lineNumber: 191,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -762,7 +743,7 @@ function OrderForm() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                                            lineNumber: 208,
+                                                                            lineNumber: 203,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -773,7 +754,7 @@ function OrderForm() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                                            lineNumber: 211,
+                                                                            lineNumber: 206,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         option.discount > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -784,30 +765,30 @@ function OrderForm() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                                            lineNumber: 213,
+                                                                            lineNumber: 208,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                    lineNumber: 207,
+                                                                    lineNumber: 202,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, option.quantity, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 186,
+                                                            lineNumber: 181,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 175,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 178,
+                                            lineNumber: 173,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -825,13 +806,13 @@ function OrderForm() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                    lineNumber: 224,
+                                                                    lineNumber: 219,
                                                                     columnNumber: 32
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 223,
+                                                            lineNumber: 218,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -842,13 +823,13 @@ function OrderForm() {
                                                             className: "h-12 text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 226,
+                                                            lineNumber: 221,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 217,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,13 +844,13 @@ function OrderForm() {
                                                                     children: "*"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                                    lineNumber: 230,
+                                                                    lineNumber: 225,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 229,
+                                                            lineNumber: 224,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -880,19 +861,19 @@ function OrderForm() {
                                                             className: "h-12 text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 227,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 216,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -907,13 +888,13 @@ function OrderForm() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 233,
                                                             columnNumber: 32
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 232,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -925,13 +906,13 @@ function OrderForm() {
                                                     className: "h-12 text-base"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 240,
+                                                    lineNumber: 235,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -946,13 +927,13 @@ function OrderForm() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 252,
+                                                            lineNumber: 247,
                                                             columnNumber: 35
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 251,
+                                                    lineNumber: 246,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -964,7 +945,7 @@ function OrderForm() {
                                                     className: "h-12 text-base"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 254,
+                                                    lineNumber: 249,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -972,13 +953,13 @@ function OrderForm() {
                                                     children: "We'll contact you on WhatsApp to confirm your order"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 257,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 250,
+                                            lineNumber: 245,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -993,13 +974,13 @@ function OrderForm() {
                                                             children: "(optional)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 262,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 261,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1010,13 +991,13 @@ function OrderForm() {
                                                     className: "h-12 text-base"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 269,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 265,
+                                            lineNumber: 260,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1031,13 +1012,13 @@ function OrderForm() {
                                                             children: "*"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 275,
                                                             columnNumber: 36
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 279,
+                                                    lineNumber: 274,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1049,13 +1030,13 @@ function OrderForm() {
                                                     className: "text-base resize-none"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 277,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 278,
+                                            lineNumber: 273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1073,7 +1054,7 @@ function OrderForm() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 289,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1084,13 +1065,13 @@ function OrderForm() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 292,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 293,
+                                                    lineNumber: 288,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1101,7 +1082,7 @@ function OrderForm() {
                                                             children: "Original Price"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 302,
+                                                            lineNumber: 297,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1112,13 +1093,13 @@ function OrderForm() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 303,
+                                                            lineNumber: 298,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 296,
                                                     columnNumber: 17
                                                 }, this),
                                                 selectedOption.discount > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,7 +1110,7 @@ function OrderForm() {
                                                             children: "Bundle Discount"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 309,
+                                                            lineNumber: 304,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1140,13 +1121,13 @@ function OrderForm() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 310,
+                                                            lineNumber: 305,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 308,
+                                                    lineNumber: 303,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1157,7 +1138,7 @@ function OrderForm() {
                                                             children: "Total"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 314,
+                                                            lineNumber: 309,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1168,13 +1149,13 @@ function OrderForm() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/landing/order-form.tsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 310,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 313,
+                                                    lineNumber: 308,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1186,13 +1167,13 @@ function OrderForm() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 319,
+                                                    lineNumber: 314,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 287,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1205,14 +1186,14 @@ function OrderForm() {
                                                     className: "mr-2 h-5 w-5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/order-form.tsx",
-                                                    lineNumber: 325,
+                                                    lineNumber: 320,
                                                     columnNumber: 17
                                                 }, this),
                                                 isSubmitting ? "Processing..." : `Order Now - Accra Pay GH₵${selectedOption.totalPrice.toLocaleString()} on Delivery`
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 319,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1220,36 +1201,36 @@ function OrderForm() {
                                             children: "Payment on delivery is only for Accra. Orders outside Accra require advance payment before dispatch."
                                         }, void 0, false, {
                                             fileName: "[project]/components/landing/order-form.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 326,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/landing/order-form.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/landing/order-form.tsx",
-                            lineNumber: 174,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/landing/order-form.tsx",
-                    lineNumber: 157,
+                    lineNumber: 152,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/landing/order-form.tsx",
-            lineNumber: 128,
+            lineNumber: 123,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/landing/order-form.tsx",
-        lineNumber: 127,
+        lineNumber: 122,
         columnNumber: 5
     }, this);
 }

@@ -7,6 +7,7 @@ import { Specifications } from "@/components/landing/specifications"
 import { Benefits } from "@/components/landing/benefits"
 import { ProductVideo } from "@/components/landing/product-video"
 import { Reviews } from "@/components/landing/reviews"
+import { FacebookReview } from "@/components/landing/facebook-review"
 import { DeliveryPayment } from "@/components/landing/delivery-payment"
 import { FAQ } from "@/components/landing/faq"
 import { OrderForm } from "@/components/landing/order-form"
@@ -19,6 +20,7 @@ export default function Home() {
       <HeroSection />
       <TrustBadges />
       <OrderProcess />
+      <FacebookReview />
       <ProductVideo />
       <Reviews />
       <ProblemSolution />

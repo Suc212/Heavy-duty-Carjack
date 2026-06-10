@@ -1,5 +1,6 @@
-:HL["/_next/static/chunks/93b088578b81637b.css","style"]
+:HL["/_next/static/chunks/dcefc56429e9dcd0.css","style"]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Review%202.png","image"]
 :HL["/images/H6f8f0a6f441d457aaebaae1dac0a2daaf.jpg_960x960q80.jpg","image"]
 :HL["/images/Hc4a3441663cf41d3b622b32d60ea6eeeC.jpg","image"]
 :HL["/images/H4b1f79e0ebb644598fe4103e9d37f7deH.jpg","image"]
@@ -8,4 +9,4 @@
 :HL["/images/Hdb49b3bcc41f431ba058b204d73ade61l.jpg","image"]
 :HL["/images/H5c62c34ed01b49f09777edb4fd051608w.jpg_960x960q80.jpg","image"]
 :HL["/images/A493800a0438e4862bbc6085ca381b1827.jpg","image"]
-0:{"buildId":"TKBQctG0pBFGQVvGIWr45","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"wIZFL9KUByONueN9-N1DU","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
