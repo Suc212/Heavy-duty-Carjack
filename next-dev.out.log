@@ -1,0 +1,27 @@
+
+> my-v0-project@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://10.2.0.2:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1670ms
+ ○ Compiling / ...
+ GET / 200 in 10.2s (compile: 8.0s, render: 2.2s)
+ GET / 200 in 607ms (compile: 14ms, render: 594ms)
+ ✓ Compiled in 290ms
+ GET / 200 in 702ms (compile: 365ms, render: 337ms)
+ ✓ Compiled in 134ms
+ GET / 200 in 547ms (compile: 228ms, render: 320ms)
+ ✓ Compiled in 101ms
+ GET / 200 in 660ms (compile: 237ms, render: 423ms)
+ GET / 200 in 177ms (compile: 5ms, render: 172ms)
+ GET / 200 in 182ms (compile: 5ms, render: 177ms)
+ GET / 200 in 227ms (compile: 4ms, render: 223ms)
+ ✓ Compiled in 237ms
+ ✓ Compiled in 306ms
+ GET / 200 in 622ms (compile: 193ms, render: 429ms)
+ GET / 200 in 787ms (compile: 262ms, render: 525ms)
