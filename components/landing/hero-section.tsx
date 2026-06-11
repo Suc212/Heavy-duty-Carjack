@@ -26,14 +26,11 @@ export function HeroSection() {
             </Badge>
 
             <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Start Your Vehicle <span className="text-primary">When It Shuts Down</span>
+              Heavyduty <span className="text-primary">waterproof emergency kit</span>
             </h1>
 
             <p className="max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
-              A dead battery can stop your whole day without warning. The Car Jumpstarter is a 26Ah super jumpstart
-              tool built for small vehicles, regular cars, SUVs, pickups, and many truck emergencies, with an inbuilt
-              tire inflator and water-resistant protection for wet conditions. Recent heavy rains and flooding in Ghana
-              are a clear reminder to keep emergency help in your vehicle before you need it.
+              Jumpstart,Tyre pump,powerbank,flashlight
             </p>
 
             <div className="flex flex-wrap items-center gap-3 text-sm">
