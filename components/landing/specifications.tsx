@@ -95,7 +95,7 @@ export function Specifications() {
               key={spec.label}
               className="rounded-xl border bg-card p-6 text-center shadow-sm transition-shadow hover:shadow-md"
             >
-              <spec.icon className="mx-auto h-8 w-8 text-primary" />
+              <spec.icon className="mx-auto h-8 w-8 text-accent" />
               <p className="mt-4 text-2xl font-bold text-foreground">{spec.value}</p>
               <p className="mt-1 font-medium text-foreground">{spec.label}</p>
               <p className="mt-1 text-sm text-muted-foreground">{spec.description}</p>

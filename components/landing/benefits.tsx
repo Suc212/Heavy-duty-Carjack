@@ -60,8 +60,8 @@ export function Benefits() {
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {benefits.map((benefit) => (
             <div key={benefit.title} className="text-center">
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10">
-                <benefit.icon className="h-7 w-7 text-primary" />
+              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10">
+                <benefit.icon className="h-7 w-7 text-accent" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-foreground">{benefit.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{benefit.description}</p>

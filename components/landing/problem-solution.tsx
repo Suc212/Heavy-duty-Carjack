@@ -26,7 +26,7 @@ export function ProblemSolution() {
     <section className="py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+          <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent">
             <AlertCircle className="h-4 w-4" />
             The Vehicle Emergency Problem
           </span>
@@ -64,14 +64,14 @@ export function ProblemSolution() {
             </ul>
           </div>
 
-          <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8">
-            <h3 className="flex items-center gap-2 text-lg font-semibold text-primary">
+          <div className="rounded-2xl border border-accent/20 bg-accent/5 p-8">
+            <h3 className="flex items-center gap-2 text-lg font-semibold text-accent">
               <Sparkles className="h-5 w-5" />
               The Car Jumpstarter Way
             </h3>
             <ul className="mt-6 space-y-4">
               {solutions.map((solution) => (
-                <li key={solution} className="flex items-start gap-3 text-primary/80">
+                <li key={solution} className="flex items-start gap-3 text-accent/80">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
                   <span>{solution}</span>
                 </li>

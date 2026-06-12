@@ -102,8 +102,8 @@ export function OrderForm() {
       <section id="order" className="py-12 sm:py-20">
         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-2xl border bg-card p-6 text-center shadow-lg sm:p-10">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-              <CheckCircle2 className="h-8 w-8 text-primary" />
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
+              <CheckCircle2 className="h-8 w-8 text-accent" />
             </div>
             <h2 className="mt-5 text-xl font-bold text-foreground sm:text-2xl">Order Confirmed!</h2>
             <p className="mt-3 text-muted-foreground">
@@ -129,7 +129,7 @@ export function OrderForm() {
             Free delivery across Ghana. Payment on delivery is available only in Accra.
           </p>
           <div className="mx-auto mt-4 flex max-w-xl flex-col gap-2 text-sm sm:flex-row sm:justify-center">
-            <span className="rounded-full bg-primary/10 px-3 py-1.5 font-semibold text-primary">
+            <span className="rounded-full bg-accent/10 px-3 py-1.5 font-semibold text-accent">
               Limited stock available for delivery
             </span>
             <span className="rounded-full bg-secondary px-3 py-1.5 font-medium text-secondary-foreground">
@@ -140,10 +140,10 @@ export function OrderForm() {
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-xs sm:text-sm text-muted-foreground">
           <div className="flex items-center gap-1.5">
-            <ShieldCheck className="h-4 w-4 text-primary" />
+            <ShieldCheck className="h-4 w-4 text-accent" />
             <span>Warranty</span>
           </div>
-          <div className="flex items-center gap-1.5 font-semibold text-primary">
+          <div className="flex items-center gap-1.5 font-semibold text-accent">
             <Banknote className="h-4 w-4" />
             <span>Pay on Delivery Only in Accra</span>
           </div>
@@ -159,7 +159,7 @@ export function OrderForm() {
                   className="aspect-square w-full object-contain p-4"
                 />
               </div>
-              <div className="rounded-xl bg-primary/5 p-4 text-center">
+              <div className="rounded-xl bg-accent/5 p-4 text-center">
                 <p className="text-sm font-medium text-foreground">Car Jumpstarter</p>
                 <p className="text-xs text-muted-foreground">26Ah super jumpstarter with inbuilt tire inflator and accessories</p>
               </div>
@@ -183,7 +183,7 @@ export function OrderForm() {
                       htmlFor={`qty-${option.quantity}`}
                       className={`relative flex cursor-pointer items-center gap-3 rounded-xl border p-4 transition-all active:scale-[0.98] ${
                         selectedQuantity === option.quantity
-                          ? "border-primary bg-primary/5 ring-1 ring-primary"
+                          ? "border-accent bg-accent/5 ring-1 ring-accent"
                           : "hover:border-muted-foreground/40"
                       }`}
                     >
@@ -205,7 +205,7 @@ export function OrderForm() {
                         </p>
                         <p className="text-lg font-bold text-foreground">GH₵{option.totalPrice.toLocaleString()}</p>
                         {option.discount > 0 && (
-                          <p className="text-xs font-medium text-primary">-GH₵{option.discount.toLocaleString()}</p>
+                          <p className="text-xs font-medium text-accent">-GH₵{option.discount.toLocaleString()}</p>
                         )}
                       </div>
                     </label>
@@ -302,7 +302,7 @@ export function OrderForm() {
                 {selectedOption.discount > 0 && (
                   <div className="mt-2 flex items-center justify-between text-sm">
                     <span className="text-muted-foreground">Bundle Discount</span>
-                    <span className="font-medium text-primary">-GH₵{selectedOption.discount.toLocaleString()}</span>
+                    <span className="font-medium text-accent">-GH₵{selectedOption.discount.toLocaleString()}</span>
                   </div>
                 )}
                 <div className="mt-3 flex items-center justify-between border-t pt-3">
@@ -311,7 +311,7 @@ export function OrderForm() {
                     GH₵{selectedOption.totalPrice.toLocaleString()}
                   </span>
                 </div>
-                <p className="mt-2 text-center text-xs font-medium text-primary">
+                <p className="mt-2 text-center text-xs font-medium text-accent">
                   Accra customers can pay GH₵{selectedOption.totalPrice.toLocaleString()} when the order arrives
                 </p>
               </div>

@@ -9,7 +9,7 @@ export function TrustBadges() {
         <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-12">
           {badges.map((badge) => (
             <div key={badge} className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-              <CheckCircle2 className="h-4 w-4 text-primary" />
+              <CheckCircle2 className="h-4 w-4 text-accent" />
               <span>{badge}</span>
             </div>
           ))}

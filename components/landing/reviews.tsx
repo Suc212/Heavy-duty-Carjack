@@ -5,47 +5,47 @@ import { OrderCta } from "@/components/landing/order-cta"
 const reviews = [
   {
     id: 1,
-    name: "Kwame Asante",
-    location: "Accra",
+    name: "Charles Donkoh",
+    location: "Sakumono Estate",
     rating: 5,
     text: "My car refused to start after work and this jumpstarter brought it back immediately. I now keep it in the boot every day.",
     date: "2 weeks ago",
   },
   {
     id: 2,
-    name: "Ama Mensah",
-    location: "Kumasi",
+    name: "Nana Gyimah",
+    location: "Bolgatanga",
     rating: 5,
     text: "I was skeptical at first, but the Car Jumpstarter exceeded my expectations. It started my car quickly and can still charge my phone when needed.",
     date: "1 month ago",
   },
   {
     id: 3,
-    name: "Kofi Osei",
-    location: "Tema",
+    name: "Kojo Ayamga",
+    location: "Suhum",
     rating: 5,
     text: "Worth every cedi. I used it for my saloon car and delivery was very fast. The LED light is useful at night too.",
     date: "3 weeks ago",
   },
   {
     id: 4,
-    name: "Efua Boateng",
-    location: "Takoradi",
+    name: "Obed Assan",
+    location: "Tema",
     rating: 5,
     text: "I bought 2, one for my car and one for my husband. Strong emergency starter and very easy to carry.",
     date: "1 week ago",
   },
   {
     id: 5,
-    name: "Yaw Darko",
-    location: "East Legon",
+    name: "Tsekpo Nyogbe",
+    location: "Accra",
     rating: 5,
     text: "Perfect emergency tool for drivers. Customer service was helpful and explained how to connect it safely.",
     date: "2 months ago",
   },
   {
     id: 6,
-    name: "Adwoa Frimpong",
+    name: "Samuel Sackey",
     location: "Spintex",
     rating: 5,
     text: "Bought it as a gift for my dad. He likes that it can start the car first and still charge a phone if needed. 10/10!",
@@ -60,7 +60,7 @@ export function Reviews() {
         <div className="text-center">
           <div className="flex items-center justify-center gap-1">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
+              <Star key={i} className="h-6 w-6 fill-accent text-accent" />
             ))}
           </div>
           <p className="mt-2 text-lg font-semibold text-foreground">4.9/5 from 500+ happy customers</p>
@@ -82,7 +82,7 @@ export function Reviews() {
             <div key={review.id} className="rounded-xl border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
               <div className="flex items-center gap-1">
                 {[...Array(review.rating)].map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                  <Star key={i} className="h-4 w-4 fill-accent text-accent" />
                 ))}
               </div>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{review.text}</p>

@@ -22,8 +22,8 @@ export function DeliveryPayment() {
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
           <div className="rounded-2xl border bg-card p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                <Banknote className="h-5 w-5 text-primary" />
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
+                <Banknote className="h-5 w-5 text-accent" />
               </div>
               <h3 className="font-semibold text-foreground">Accra Orders</h3>
             </div>
@@ -35,8 +35,8 @@ export function DeliveryPayment() {
 
           <div className="rounded-2xl border bg-card p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                <MapPin className="h-5 w-5 text-primary" />
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
+                <MapPin className="h-5 w-5 text-accent" />
               </div>
               <h3 className="font-semibold text-foreground">Outside Accra</h3>
             </div>

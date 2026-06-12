@@ -29,7 +29,7 @@ export function OrderProcess() {
                 <step.icon className="h-5 w-5" />
               </div>
               <div>
-                <p className="text-xs font-semibold uppercase text-primary">Step {index + 1}</p>
+                <p className="text-xs font-semibold uppercase text-accent">Step {index + 1}</p>
                 <h3 className="mt-1 font-semibold text-foreground">{step.title}</h3>
                 <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{step.description}</p>
               </div>

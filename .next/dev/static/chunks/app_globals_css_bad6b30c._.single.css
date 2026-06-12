@@ -1081,6 +1081,10 @@
     width: calc(var(--spacing) * 72);
   }
 
+  .w-\[18rem\] {
+    width: 18rem;
+  }
+
   .w-\[100px\] {
     width: 100px;
   }
@@ -1131,6 +1135,10 @@
 
   .max-w-\[calc\(100\%-2rem\)\] {
     max-width: calc(100% - 2rem);
+  }
+
+  .max-w-\[calc\(100vw-4rem\)\] {
+    max-width: calc(100vw - 4rem);
   }
 
   .max-w-lg {
@@ -1642,6 +1650,20 @@
     border-color: var(--color-border);
   }
 
+  .border-accent {
+    border-color: var(--accent);
+  }
+
+  .border-accent\/20 {
+    border-color: var(--accent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-accent\/20 {
+      border-color: color-mix(in oklab, var(--accent) 20%, transparent);
+    }
+  }
+
   .border-border {
     border-color: var(--border);
   }
@@ -1710,6 +1732,26 @@
 
   .bg-accent {
     background-color: var(--accent);
+  }
+
+  .bg-accent\/5 {
+    background-color: var(--accent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-accent\/5 {
+      background-color: color-mix(in oklab, var(--accent) 5%, transparent);
+    }
+  }
+
+  .bg-accent\/10 {
+    background-color: var(--accent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-accent\/10 {
+      background-color: color-mix(in oklab, var(--accent) 10%, transparent);
+    }
   }
 
   .bg-background {
@@ -1883,6 +1925,10 @@
 
   .to-primary\/5 {
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .fill-accent {
+    fill: var(--accent);
   }
 
   .fill-current {
@@ -2211,8 +2257,22 @@
     white-space: nowrap;
   }
 
+  .text-accent {
+    color: var(--accent);
+  }
+
   .text-accent-foreground {
     color: var(--accent-foreground);
+  }
+
+  .text-accent\/80 {
+    color: var(--accent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-accent\/80 {
+      color: color-mix(in oklab, var(--accent) 80%, transparent);
+    }
   }
 
   .text-background {
@@ -2397,6 +2457,10 @@
   .ring-1 {
     --tw-ring-shadow: var(--tw-ring-inset, ) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
+  .ring-accent {
+    --tw-ring-color: var(--accent);
   }
 
   .ring-primary {
@@ -5579,10 +5643,10 @@
   --card-foreground: #0b0b0b;
   --popover: #fff;
   --popover-foreground: #0b0b0b;
-  --primary: #0f74c5;
+  --primary: #0b0b0b;
   --primary-foreground: #fff;
-  --secondary: #edf2f8;
-  --secondary-foreground: #222;
+  --secondary: #f2f2f2;
+  --secondary-foreground: #0b0b0b;
   --muted: #f2f2f2;
   --muted-foreground: #636363;
   --accent: #0f74c5;
@@ -5616,10 +5680,10 @@
     --card-foreground: lab(3.04863% 0 0);
     --popover: lab(100% 0 0);
     --popover-foreground: lab(3.04863% 0 0);
-    --primary: lab(47.0007% -3.24476 -50.2754);
+    --primary: lab(3.04863% 0 0);
     --primary-foreground: lab(100% 0 0);
-    --secondary: lab(95.3516% -1.09163 -3.57015);
-    --secondary-foreground: lab(13% 0 0);
+    --secondary: lab(95.36% .0000596046 0);
+    --secondary-foreground: lab(3.04863% 0 0);
     --muted: lab(95.36% .0000596046 0);
     --muted-foreground: lab(42% 0 0);
     --accent: lab(47.0007% -3.24476 -50.2754);
@@ -5652,14 +5716,14 @@
   --card-foreground: #fafafa;
   --popover: #0a0a0a;
   --popover-foreground: #fafafa;
-  --primary: #3a93e6;
-  --primary-foreground: #0b0b0b;
+  --primary: #fafafa;
+  --primary-foreground: #0a0a0a;
   --secondary: #262626;
   --secondary-foreground: #fafafa;
   --muted: #262626;
   --muted-foreground: #a1a1a1;
   --accent: #3a93e6;
-  --accent-foreground: #0b0b0b;
+  --accent-foreground: #fafafa;
   --destructive: #82181a;
   --destructive-foreground: #fb2c36;
   --border: #262626;
@@ -5688,14 +5752,14 @@
     --card-foreground: lab(98.26% 0 0);
     --popover: lab(2.75381% 0 0);
     --popover-foreground: lab(98.26% 0 0);
-    --primary: lab(58.7199% -5.55909 -50.5326);
-    --primary-foreground: lab(3.04863% 0 0);
+    --primary: lab(98.26% 0 0);
+    --primary-foreground: lab(2.75381% 0 0);
     --secondary: lab(15.204% 0 0);
     --secondary-foreground: lab(98.26% 0 0);
     --muted: lab(15.204% 0 0);
     --muted-foreground: lab(66.128% -.0000298023 .0000119209);
     --accent: lab(58.7199% -5.55909 -50.5326);
-    --accent-foreground: lab(3.04863% 0 0);
+    --accent-foreground: lab(98.26% 0 0);
     --destructive: lab(28.5139% 44.5539 29.0463);
     --destructive-foreground: lab(55.4814% 75.0732 48.8528);
     --border: lab(15.204% 0 0);

@@ -26,7 +26,7 @@ export function HeroSection() {
             </Badge>
 
             <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Heavyduty <span className="text-primary">waterproof emergency kit</span>
+              Emergency support <span className="text-accent">for your vehicle</span>
             </h1>
 
             <p className="max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -34,8 +34,8 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-wrap items-center gap-3 text-sm">
-              <div className="flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1.5 font-semibold text-primary">
-                <Star className="h-4 w-4 fill-primary" />
+              <div className="flex items-center gap-1 rounded-full bg-accent/10 px-3 py-1.5 font-semibold text-accent">
+                <Star className="h-4 w-4 fill-accent" />
                 <span>4.8/5 from 500+ customers</span>
               </div>
               <div className="rounded-full bg-secondary px-3 py-1.5 font-medium text-secondary-foreground">
@@ -46,7 +46,7 @@ export function HeroSection() {
             <ul className="grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
               {heroBenefits.map((benefit) => (
                 <li key={benefit} className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-accent" />
                   <span>{benefit}</span>
                 </li>
               ))}
@@ -62,15 +62,15 @@ export function HeroSection() {
                   </div>
                   <div>
                     <p className="text-xs sm:text-sm text-muted-foreground line-through">GH₵5,000</p>
-                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵3,300</p>
+                    <p className="text-xl sm:text-2xl font-bold text-accent">GH₵3,300</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">2 Units</p>
-                    <p className="text-xs font-medium text-primary">Save GH₵1,700</p>
+                    <p className="text-xs font-medium text-accent">Save GH₵1,700</p>
                   </div>
                   <div>
                     <p className="text-xs sm:text-sm text-muted-foreground line-through">GH₵7,500</p>
-                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵4,500</p>
+                    <p className="text-xl sm:text-2xl font-bold text-accent">GH₵4,500</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">3 Units</p>
-                    <p className="text-xs font-medium text-primary">Save GH₵3,000</p>
+                    <p className="text-xs font-medium text-accent">Save GH₵3,000</p>
                   </div>
                 </div>
                 <Button className="mt-4 w-full h-12 text-base font-semibold" size="lg" asChild>
